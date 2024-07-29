@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    margin: 0;
 
     .top-banner {
         background-image: url(top\ banner.png);
@@ -33,6 +34,8 @@ p {
 
 section {
     display: flex;
+    margin-bottom: 50px;
+
 
 }
 
@@ -57,4 +60,14 @@ section {
     font-weight: 700;
     border-radius: 5px;
 
+}
+
+.dream-big {
+    background-image: url(side\ banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-size: 40px;
 }
