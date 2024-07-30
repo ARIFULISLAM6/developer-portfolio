@@ -32,7 +32,7 @@ p {
 }
 
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 50px;
 
@@ -68,6 +68,33 @@ section {
     background-position: right;
 }
 
+.experience-area {
+    background-image: url(background-left.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 h2 {
     font-size: 40px;
+}
+
+.experience-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid blue;
+}
+
+#fall-stack-devloper {
+    border-left: 7px solid firebrick;
+}
+
+#baby-web developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
